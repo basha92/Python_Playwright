@@ -1,0 +1,32 @@
+to check python version in system: open command prompt using "cmd"
+use python --version or py --version or python --v or py --v 
+----
+Install Python
+Step 1 - Check if python is already installed python --version  or  py --version
+Step 2 - Download Python installer from https://www.python.org/ 
+Step 3 - Create a folder for python
+Step 4 - Run python installer and use the folder destination
+Step 4 - Also check if PATH env variables has python and python/scripts folders added
+Step 5 - Check if python is installed python --version  or  py --version
+Step 6 - Also check pip  pip --version
+----
+Install Playwright
+Step 1 - Create a new folder for playwright project   
+mkdir playwright_demo
+cd playwright_demo
+
+Step 2 - Create a python virtual env for this project  
+python -m venv venv
+source venv/bin/activate    # Mac/Linux
+venv\Scripts\activate        # Windows
+
+Step 3 - Install playwright    pip install playwright   playwright --version
+Can also install with pytest pip install pytest-playwright
+
+Step 4 - Install browser binaries   
+playwright install     
+This downloads Chromium, Firefox, WebKit for testing 
+
+Step 5 - Verify installation    
+python -m playwright --version
+We’re ready. Let’s write our first script!
