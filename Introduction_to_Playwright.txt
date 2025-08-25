@@ -1,0 +1,63 @@
+What is Playwright
+It’s a tool to test websites from start to end (like how a user uses it)
+--
+What browsers does it work with?
+Works with all big browsers:
+Chromium (like Chrome, Edge)
+WebKit (like Safari)
+Firefox
+--
+What OS does it work with?
+Windows
+Linux
+Mac
+Can run tests in CI/CD ( Jenkins etc.)
+headless (no browser window) OR headed (you see browser open)
+can also pretend to be a mobile phone (mobile emulation)
+--
+Before we begin…  Let’s check our system is ready
+At least 4 GB RAM (8 GB better)
+Disk space: around 1.5 GB 
+Stable internet
+https://playwright.dev/python/docs/intro#system-requirements
+-------
+Uses of playwright
+🔹 1. Web Application Testing
+Automates modern web apps across Chromium, Firefox, and WebKit browsers.
+Handles single-page apps (SPAs) better than Selenium.
+Can test multiple tabs, pop-ups, and iframes reliably.
+Use case: Automating login → navigating dashboard → submitting forms → verifying results.
+🔹 2. Cross-Browser and Cross-Platform Testing
+Same test can run on Chrome, Edge, Safari, Firefox.
+Supports Windows, Linux, and macOS.
+Can also run tests in headless mode for CI/CD pipelines
+Use case: Ensuring a hospital’s web portal works in Chrome and Safari (important in medical devices domain).
+🔹 3. API Testing
+Built-in support for sending HTTP requests (GET, POST, PUT, etc.).
+Can combine API + UI testing in one framework.
+Use case: Verify that when a patient record is created via API, it also appears correctly in the UI.
+🔹 4. Mobile Web Testing
+Can emulate mobile devices (Pixel, iPhone, iPad, etc.).
+Useful for responsive design testing.
+Use case: Testing that a medical app’s patient portal works on mobile browsers.
+🔹 5. Parallel and Fast Execution
+Runs tests in parallel with built-in test runner.
+Faster than Selenium because it interacts directly with browser engines.
+Use case: Running hundreds of automated regression tests overnight.
+🔹 6. Network-Level Testing
+Can intercept, mock, or modify network requests.
+Helps test apps even when backend APIs are not ready.
+Use case: Mocking a server response when the medical device backend is still in development.
+🔹 7. Visual and Screenshot Testing
+Captures screenshots and generates videos of test runs.
+Can do visual comparisons between runs.
+Use case: Documenting test evidence for FDA audits (screenshots attached to test results).
+🔹 8. Continuous Integration (CI/CD)
+Works well with Jenkins, GitHub Actions, GitLab CI, Azure DevOps.
+Runs automatically on every code change.
+Use case: Every software update in a medical device triggers automated regression tests.
+🔹 9. Multi-Language Support
+Works with Python, Java, C#, TypeScript/JavaScript.
+You can choose the language based on your comfort and project needs.
+✅ In summary: Playwright is used to automate UI, API, cross-browser, mobile web, and network-level testing. 
+It’s fast, reliable, and ideal for regulated industries where traceability and evidence are crucial.
