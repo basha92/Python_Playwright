@@ -12,13 +12,13 @@ Step 6 - Also check pip  pip --version
 ----
 Install Playwright
 Step 1 - Create a new folder for playwright project   
-mkdir playwright_demo
-cd playwright_demo
+make the directory using - mkdir playwright_demo
+change to the directory using - cd playwright_demo
 
 Step 2 - Create a python virtual env for this project  
-python -m venv venv
-source venv/bin/activate    # Mac/Linux
-venv\Scripts\activate        # Windows
+python -m venv (environment name)
+source (environment name)/bin/activate    # Mac/Linux
+(environment name)\Scripts\activate        # Windows
 
 Step 3 - Install playwright    pip install playwright   playwright --version
 Can also install with pytest pip install pytest-playwright
