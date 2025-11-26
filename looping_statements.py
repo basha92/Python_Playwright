@@ -20,8 +20,16 @@
 
 #while loop
 #counting from 1 to 10 using while loop
-i = 1
-while i <= 10: #prints numbers from 1 to 10
-     print(i)
-     i += 1
-print("Done!!")
+#i = 1
+#while i <= 10: #prints numbers from 1 to 10
+     #print(i)
+     #i += 1
+#print("Done!!")
+
+#printing 10 to 1 in reverse using while loop
+#i = 10 
+#while i >= 1: #prints numbers from 10 to 1
+    #print(i)
+    #i -= 1
+#print("Done!!")
+
