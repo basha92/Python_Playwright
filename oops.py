@@ -174,3 +174,16 @@ class Manager(Employee):  #inheriting Employee class
 #print(isinstance(mgr1, Developer))  #False
 #print(issubclass(Manager, Employee))  #True
 #print(issubclass(Developer, Employee))  #True
+
+
+#decorators - A special type of function that modifies the behavior of another function or method.
+# They are often used to add functionality to existing functions or methods without changing their code.
+#property decorator - A built-in decorator in Python that allows you to define methods in a class that can be accessed like attributes.
+class Person:
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+    @property
+    def email(self):
+        return
