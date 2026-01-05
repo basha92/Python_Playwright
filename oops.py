@@ -159,18 +159,18 @@ class Manager(Employee):  #inheriting Employee class
         for emp in self.employees:
             print('-->', emp.fullname())
 
-mgr1 = Manager('Manager', 'One', 90000, [dev1])
-print(mgr1.email)
+#mgr1 = Manager('Manager', 'One', 90000, [dev1])
+#print(mgr1.email)
 #mgr1.print_emps()
-mgr1.add_emp(dev2)
-mgr1.remove_emp(dev1)
-mgr1.print_emps()
+#mgr1.add_emp(dev2)
+#mgr1.remove_emp(dev1)
+#mgr1.print_emps()
 
 #isinstance() - to check the object is instance of which class
 #isfather() - to check the class is subclass of which class
 #issubclass() - to check the class is subclass of which class
-print(isinstance(mgr1, Manager))  #True
-print(isinstance(mgr1, Employee))  #True
-print(isinstance(mgr1, Developer))  #False
-print(issubclass(Manager, Employee))  #True
-print(issubclass(Developer, Employee))  #True
+#print(isinstance(mgr1, Manager))  #True
+#print(isinstance(mgr1, Employee))  #True
+#print(isinstance(mgr1, Developer))  #False
+#print(issubclass(Manager, Employee))  #True
+#print(issubclass(Developer, Employee))  #True
