@@ -1,3 +1,4 @@
+#using function as module
 #home loan EMI calculator
 def calculate_emi(principal, annual_rate, tenure_years):
     monthly_rate = annual_rate / (12 * 100)  # Convert annual rate to monthly and percentage to decimal
