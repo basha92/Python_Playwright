@@ -3,15 +3,13 @@
 #2. EMI calculation from LoanClass module inside ModulesAndPackages package
 #3. employee details from EmployeeDetails module inside EmployeePackage
 
+#import ModulesAndPackages
 
-import sys
-sys.path.append('F:\\Python_Git\\Python_Playwright\\ModulesAndPackages')
+from ModulesAndPackages.StudentPackage.StudentDetails import get_student_details
 
-#from ModulesAndPackages.StudentPackage.StudentDetails import get_student_details
-
-#student_id = 3
-#student_info = get_student_details(student_id)
-#print(f"Details of student with ID {student_id}: {student_info}")
+student_id = 3
+student_info = get_student_details(student_id)
+print(f"Details of student with ID {student_id}: {student_info}")
 
 #from ModulesAndPackages.LoanClass import EMICalculator
 #home_loan = EMICalculator(500000, 7.5, 20)
