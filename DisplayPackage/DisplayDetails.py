@@ -4,6 +4,7 @@
 #3. employee details from EmployeeDetails module inside EmployeePackage
 
 from ModulesAndPackages.StudentPackage.StudentDetails import get_student_details
+
 student_id = 3
 student_info = get_student_details(student_id)
 print(f"Details of student with ID {student_id}: {student_info}")
