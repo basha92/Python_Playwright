@@ -3,6 +3,8 @@ Here is a shopping cart script, The developer says it should calculate the total
 - but the final total is wrong.
 
 Business requirement --> if cost more than 500 offer 10% discount.
+
+conditional breakpoint - stops the program when the condition is met. Helpful when we need to land on particular point to debug.
 '''
 
 
