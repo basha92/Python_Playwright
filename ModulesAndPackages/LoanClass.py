@@ -19,3 +19,12 @@ class CarLoanEMICalculator(EMICalculator):  #inheriting parent class attributes 
 class PersonalLoanEMICalculator(EMICalculator):
     def __init__(self, principal, annual_rate, tenure_years):
         super().__init__(principal, annual_rate, tenure_years)
+
+print(__name__)
+#print("this is emi calculator")
+if __name__=="__main__":
+    print("this is emi calculator")
+
+''' the naming convention __name__==__main__ will be used when you are importing the code as a module into
+another python file but don't want to execute that code block until unless the respective file is run.
+if this code is used as module, the __name__ will inherit the module name, if we run the same file it will take main.'''
