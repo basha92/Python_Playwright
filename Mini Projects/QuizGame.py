@@ -36,3 +36,50 @@ for question in questions:
 print("------------------------------")
 print(f"Yor score is {score}")
 print("------------------------------")
+
+'''
+Output:
+------------------------------
+What company makes the Xperia line of smartphones?
+A.Samsung
+B.Sony
+C.Nokia
+D.Apple
+Enter the option (A, B, C, D): b
+CORRECT!
+------------------------------
+Which city is home to the Brandenburg Gate?
+A.Paris
+B.Berlin
+C.Rome
+D.London
+Enter the option (A, B, C, D): b
+CORRECT!
+------------------------------
+What is the fourth state of matter, after solid, liquid, and gas?
+A.Ether
+B.Plasma
+C.Jelly
+D.Earth
+Enter the option (A, B, C, D): b
+INCORRECT
+C is the correct answer
+------------------------------
+What are plants that lose their leaves in autumn called?  
+A.Coniferous
+B.Evergreen
+C.Carnivorous
+D.Deciduous
+Enter the option (A, B, C, D): d
+CORRECT!
+------------------------------
+Who is generally considered the inventor of the motor car?A.Henry Ford
+B.Karl Benz
+C.Gottlieb Daimler
+D.Nikola Tesla
+Enter the option (A, B, C, D): b
+CORRECT!
+------------------------------
+Yor score is 4
+------------------------------
+'''
