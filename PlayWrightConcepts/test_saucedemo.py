@@ -1,7 +1,21 @@
-
+'''
+to execute the test - pytest
+to run in headless mode - pytest --headless this is default mode
+to run in headed mode - pytest --headed
+to run in specific browser - pytest --browser=firefox
+to run in specific browser with link - pytest --browser=firefox --base-url="https://www.saucedemo.com/"
+to run with tracing - pytest --tracing on
+to run with screenshots - pytest --screenshots on
+to run with video - pytest --video on
+to get report - pytest --html=report.html
+we can provide the browser link during execution. use "/" in place of browser link in program.
+to see the trace - playwright show-trace (copy the whole path along with the zip file name). this will open a gui to see the trace.
+'''
 import re  #import regular expressions
 from playwright.sync_api import Page, expect
 import pytest
+
+# @pytest.mark.skip_browser("chromium")  #skip test in chrome browser
 
 def test_has_title(page: Page):
     page.goto("https://www.saucedemo.com/")
