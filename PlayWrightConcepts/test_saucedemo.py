@@ -11,5 +11,5 @@ def test_has_title(page: Page):
 
 def test_inventory_page(page: Page):
     page.goto("https://www.saucedemo.com/inventory.html")
-    #expect the error message
+    #expect the error message - use locator since the text is within an element
     expect(page.locator('h3')).to_contain_text(re.compile("Epic sadface: You can only access '/inventory.html' when you are logged in."))
