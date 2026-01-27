@@ -2,6 +2,7 @@
 to generate the code, use playwright codegen https://www.saucedemo.com/ --target pytest or you can change the target language in the codegen window
 to emulate the code in a device, use playwright codegen --device="iPhone 11 Pro" https://www.saucedemo.com/ --target pytest
 to run only particular test using the pytest ini, use python -m pytest -k test_codegendemo.py (name of the file) in the terminal
+to have the screen size and color, use playwright codegen --viewport-size="800,600"  --color-scheme=dark https://www.saucedemo.com/
 '''
 
 
